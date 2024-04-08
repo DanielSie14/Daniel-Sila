@@ -2,11 +2,11 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-@app.route("/endpoint1")
+@app.route("/1")
 def home():
-    return "Selamat datang di EndPoint Pertama!"
+    return "Selamat datang Ingrid!"
 
-@app.route("/endpoint2data")
+@app.route("/2")
 def get_data():
     data = [
         {"nama": "Daniel", "usia": 25},

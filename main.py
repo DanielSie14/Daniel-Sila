@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/end1")
 def home():
-    return "Selamat datang Ingrid!"
+    return "Selamat datang james kintol!"
 
 @app.route("/end2")
 def get_data():
